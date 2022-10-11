@@ -1,13 +1,21 @@
 <template>
-  <button>button</button>
+  <button>
+    button
+  </button>
+  
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue'
+  import { defineComponent, ref } from 'vue'
 
   export default defineComponent({
+    name: "panButton",
     setup(){
-      name: 'panButton'
+      const message = ref('buttom')
+
+      return {
+        message
+      }
     }
   })
 </script>
