@@ -1,4 +1,4 @@
 {
   "name": "@my-ui/button",
-  "main": "index.ts"
+  "main": "./lib/"
 }
