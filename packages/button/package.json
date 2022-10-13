@@ -1,4 +1,4 @@
 {
-  "name": "@my-ui/button",
-  "main": "./lib/"
+  "name": "@pan-ui/button",
+  "version": "0.0.1"
 }

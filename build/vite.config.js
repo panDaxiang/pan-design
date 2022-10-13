@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     outDir: 'pan-design',
     lib: {
-      entry: resolve(__dirname, '../packages/button/index.ts'),
+      entry: resolve(__dirname, '../packages/panUi/index.ts'),
       name: 'pan-design',
       // the proper extensions will be added
       fileName: 'pan-design',
@@ -25,5 +25,5 @@ export default defineConfig({
       }
     }
   },
-  plugins: [vue(), dts({ include: '../packages/button/index.ts' })]
+  plugins: [vue(), dts({ include: '../packages/panUi/index.ts' })]
 })
